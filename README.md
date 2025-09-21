@@ -1,2 +1,2 @@
 # Generative_AI_OUK 
-## This repo is dedicated to Generative AI content using Jac Programming Language. It is jointly offered by The Open University of Kenya (OUK) and BCS Technology International Pty Limited, Australia. The aim is to gain a cutting-edge Generative AI skills.
+## This repo is dedicated to Generative AI content using Jac Programming Language (https://www.jac-lang.org/learn/introduction/). It is jointly offered by The Open University of Kenya (OUK) and BCS Technology International Pty Limited, Australia. The aim is to gain a cutting-edge Generative AI skills.
