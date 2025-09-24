@@ -5,7 +5,7 @@ def love_jac() -> str{
 }
 
 # Calling the function and printing the result, introduce main so that when you import this file it doesn't repeat
-with entry__main__{
+with entry:__main__{
     print(f"{love_jac()}");
 }
 
