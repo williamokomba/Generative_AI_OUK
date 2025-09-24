@@ -2,7 +2,7 @@ import random;
 import from byllm.llm { Model }
 
 # glob llm = Model(model_name="gpt-4o",verbose=False);
- glob llm = Model(model_name="gemini/gemini-2.0-flash", verbose=False, api="AIzaSyDQ3z5IGK0akEQEgGn0JNYfhyJNGnuHIrUAIzaSyDQ3z5IGK0akEQEgGn0JNYfhyJNGnuHIrU");
+ glob llm = Model(model_name="gemini/gemini-2.0-flash", key="AIzaSyDQ3z5IGK0akEQEgGn0JNYfhyJNGnuHIrU", verbose=False, temperature=0.3);
 
  """Provide a fun hint if guess is incorrect"""
 def give_hint(guess: int, correct_number: int) -> str by llm();
