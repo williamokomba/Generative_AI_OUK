@@ -1,14 +1,16 @@
-impl BMICalculator {
-    can calculate_bmi with person entry {
-        # Calculate BMI: weight (kg) / height (m) squared
+impl BMICalculator.calculate_bmi {
+    if [-->] {
+        visit [-->];
+    } else {
+        # Calculate BMI for the current person node
         here.bmi = here.weight / (here.height * here.height);
         
         # Determine BMI category
         if (here.bmi < 18.5) {
             here.category = "Underweight";
-        } else if (here.bmi < 25) {
+        } elif (here.bmi < 25) {
             here.category = "Normal weight";
-        } else if (here.bmi < 30) {
+        } elif (here.bmi < 30) {
             here.category = "Overweight";
         } else {
             here.category = "Obese";
@@ -20,5 +22,8 @@ impl BMICalculator {
         std.out("BMI: " + here.bmi);
         std.out("Category: " + here.category);
         std.out("-------------------");
+        
+        # Continue to next person node if available
+        disengage;
     }
 }
